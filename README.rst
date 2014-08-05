@@ -27,11 +27,10 @@ jpcw.formation is continuously
 
 + tested on Travis |travisstatus|_ 
 
-.. |travisstatus| image:: https://api.travis-ci.org/jpcw/jpcw.formation.png?branch=master
+.. |travisstatus| image:: https://api.travis-ci.org/jpcw/formation.svg?branch=master
 .. _travisstatus:  http://travis-ci.org/jpcw/jpcw.formation
 
 + coverage tracked on coveralls.io |coveralls|_.
 
-.. |coveralls| image:: https://coveralls.io/repos/jpcw/jpcw.formation/badge.png?branch=master
+.. |coveralls| image:: https://coveralls.io/repos/jpcw/formation/badge.png?branch=master
 .. _coveralls: https://coveralls.io/r/jpcw/jpcw.formation
-
