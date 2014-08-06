@@ -11,7 +11,7 @@ Welcome to jpcw.formation's documentation!
 
 .. topic:: Introduction
 
-   Sphinx Python training support.
+   Sphinx tested Python training support.
 
 
 .. toctree::
