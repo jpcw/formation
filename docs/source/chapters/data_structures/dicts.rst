@@ -221,7 +221,7 @@ Comme on le voit, les clefs ne sont pas ordonnées, et l'ordre d'insertion n'est
 
 .. code:: python
 
-    >>> help(formateur.iteritems)
+    >>> #help(formateur.iteritems)
     Help on built-in function iteritems:
     <BLANKLINE>
     iteritems(...)
