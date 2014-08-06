@@ -86,7 +86,7 @@ Comme on le voit, les clefs ne sont pas ordonnées, et l'ordre d'insertion n'est
 
 .. code:: python
 
-    >>> help(formateur)
+    >>> #help(formateur)
     Help on dict object:
     <BLANKLINE>
     class dict(object)
@@ -102,57 +102,7 @@ Comme on le voit, les clefs ne sont pas ordonnées, et l'ordre d'insertion n'est
      |
      |  Methods defined here:
      |
-     |  __cmp__(...)
-     |      x.__cmp__(y) <==> cmp(x,y)
-     |
-     |  __contains__(...)
-     |      D.__contains__(k) -> True if D has a key k, else False
-     |
-     |  __delitem__(...)
-     |      x.__delitem__(y) <==> del x[y]
-     |
-     |  __eq__(...)
-     |      x.__eq__(y) <==> x==y
-     |
-     |  __ge__(...)
-     |      x.__ge__(y) <==> x>=y
-     |
-     |  __getattribute__(...)
-     |      x.__getattribute__('name') <==> x.name
-     |
-     |  __getitem__(...)
-     |      x.__getitem__(y) <==> x[y]
-     |
-     |  __gt__(...)
-     |      x.__gt__(y) <==> x>y
-     |
-     |  __init__(...)
-     |      x.__init__(...) initializes x; see help(type(x)) for signature
-     |
-     |  __iter__(...)
-     |      x.__iter__() <==> iter(x)
-     |
-     |  __le__(...)
-     |      x.__le__(y) <==> x<=y
-     |
-     |  __len__(...)
-     |      x.__len__() <==> len(x)
-     |
-     |  __lt__(...)
-     |      x.__lt__(y) <==> x<y
-     |
-     |  __ne__(...)
-     |      x.__ne__(y) <==> x!=y
-     |
-     |  __repr__(...)
-     |      x.__repr__() <==> repr(x)
-     |
-     |  __setitem__(...)
-     |      x.__setitem__(i, y) <==> x[i]=y
-     |
-     |  __sizeof__(...)
-     |      D.__sizeof__() -> size of D in memory, in bytes
-     |
+     ...
      |  clear(...)
      |      D.clear() -> None.  Remove all items from D.
      |
@@ -214,12 +164,7 @@ Comme on le voit, les clefs ne sont pas ordonnées, et l'ordre d'insertion n'est
      |      D.viewvalues() -> an object providing a view on D's values
      |
      |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |
-     |  __hash__ = None
-     |
-     |  __new__ = <built-in method __new__ of type object>
-     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     ...
     <BLANKLINE>
 
 

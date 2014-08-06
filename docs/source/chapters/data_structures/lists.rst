@@ -9,7 +9,7 @@ Il existe un type d'objet :py:class:`array.array` qui lui ne contient que des é
 .. code:: python
 
     >>> fruits = ['bananes', 'pommes', 'fraises']
-    >>> help(fruits)
+    >>> #help(fruits)
     Help on list object:
     <BLANKLINE>
     class list(object)
@@ -18,87 +18,7 @@ Il existe un type d'objet :py:class:`array.array` qui lui ne contient que des é
      |
      |  Methods defined here:
      |
-     |  __add__(...)
-     |      x.__add__(y) <==> x+y
-     |
-     |  __contains__(...)
-     |      x.__contains__(y) <==> y in x
-     |
-     |  __delitem__(...)
-     |      x.__delitem__(y) <==> del x[y]
-     |
-     |  __delslice__(...)
-     |      x.__delslice__(i, j) <==> del x[i:j]
-     |
-     |      Use of negative indices is not supported.
-     |
-     |  __eq__(...)
-     |      x.__eq__(y) <==> x==y
-     |
-     |  __ge__(...)
-     |      x.__ge__(y) <==> x>=y
-     |
-     |  __getattribute__(...)
-     |      x.__getattribute__('name') <==> x.name
-     |
-     |  __getitem__(...)
-     |      x.__getitem__(y) <==> x[y]
-     |
-     |  __getslice__(...)
-     |      x.__getslice__(i, j) <==> x[i:j]
-     |
-     |      Use of negative indices is not supported.
-     |
-     |  __gt__(...)
-     |      x.__gt__(y) <==> x>y
-     |
-     |  __iadd__(...)
-     |      x.__iadd__(y) <==> x+=y
-     |
-     |  __imul__(...)
-     |      x.__imul__(y) <==> x*=y
-     |
-     |  __init__(...)
-     |      x.__init__(...) initializes x; see help(type(x)) for signature
-     |
-     |  __iter__(...)
-     |      x.__iter__() <==> iter(x)
-     |
-     |  __le__(...)
-     |      x.__le__(y) <==> x<=y
-     |
-     |  __len__(...)
-     |      x.__len__() <==> len(x)
-     |
-     |  __lt__(...)
-     |      x.__lt__(y) <==> x<y
-     |
-     |  __mul__(...)
-     |      x.__mul__(n) <==> x*n
-     |
-     |  __ne__(...)
-     |      x.__ne__(y) <==> x!=y
-     |
-     |  __repr__(...)
-     |      x.__repr__() <==> repr(x)
-     |
-     |  __reversed__(...)
-     |      L.__reversed__() -- return a reverse iterator over the list
-     |
-     |  __rmul__(...)
-     |      x.__rmul__(n) <==> n*x
-     |
-     |  __setitem__(...)
-     |      x.__setitem__(i, y) <==> x[i]=y
-     |
-     |  __setslice__(...)
-     |      x.__setslice__(i, j, y) <==> x[i:j]=y
-     |
-     |      Use  of negative indices is not supported.
-     |
-     |  __sizeof__(...)
-     |      L.__sizeof__() -- size of L in memory, in bytes
-     |
+     ...
      |  append(...)
      |      L.append(object) -- append object to end
      |
@@ -131,12 +51,7 @@ Il existe un type d'objet :py:class:`array.array` qui lui ne contient que des é
      |      cmp(x, y) -> -1, 0, 1
      |
      |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |
-     |  __hash__ = None
-     |
-     |  __new__ = <built-in method __new__ of type object>
-     |      T.__new__(S, ...) -> a new object with type S, a subtype of T
+     ...
     <BLANKLINE>
 
 .. warning:: Une liste est un objet muable, c'est à dire modifiable 'IN PLACE'     
@@ -182,7 +97,7 @@ Résultat final ['mangues', 'bananes', 'fraises', 'pommes']
 
 .. code:: python
     
-    >>> help(fruits.pop)
+    >>> #help(fruits.pop)
     Help on built-in function pop:
     <BLANKLINE>
     pop(...)
