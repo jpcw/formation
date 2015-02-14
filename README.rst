@@ -34,3 +34,4 @@ jpcw.formation is continuously
 
 .. |coveralls| image:: https://coveralls.io/repos/jpcw/formation/badge.png?branch=master
 .. _coveralls: https://coveralls.io/r/jpcw/jpcw.formation
+
