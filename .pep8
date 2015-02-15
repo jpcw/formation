@@ -3,5 +3,5 @@
 ignore = E501
 # E123: closnig bracket must match indent of starting bracket
 # E127 continuation line over-indented for visual indent
-# E501 line too long (82 characters)
 # E128 continuation line indentation
+# E501 line too long (82 characters)
