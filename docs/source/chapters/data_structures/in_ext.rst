@@ -37,7 +37,7 @@ En fait il y a une méthode bien plus rapide à l'écriture, mais aussi à l'ex�
 
 Certaines personnes ont un peu de mal au début à décoder les objets in extensions.
 
-Il suffit de décoposer de la façon suivante :
+Il suffit de décomposer de la façon suivante :
 
 Je veux obtenir une liste, donc je commence par écrire les crochets [ ]
 
@@ -51,7 +51,7 @@ puis on réfléchit à ce que l'on veut y mettre dedans ::
 
 C'est aussi simple et lisible que ça. Si vous n'êtes pas encore convaincu, essayez d'en écrire deux ou trois, et vous verrez que vous allez très vite acquérir la chose.
 
-Les listes comprehensions sont chainables, mais il faut reconnaitre qu'au dessus de 2 on perd en lisibilité.
+Les listes comprehensions sont chaînables, mais il faut reconnaitre qu'au dessus de 2 on perd en lisibilité.
 
 .. index:: generator expresion
 
@@ -84,7 +84,7 @@ Ici on reprend le même raisonnement que pour les listes comprehensions :
 
 On construit un dictionnaire donc on commence par les {}, puis on définit ce qu'on met comme couple **clef: valeur** pour tout parcours d'un itérable.
 
-On peut aussi conditionner la selection des éléments avec un if
+On peut aussi conditionner la sélection des éléments avec un if
 
 .. code:: python
 
