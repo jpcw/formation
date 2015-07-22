@@ -3,7 +3,7 @@
 Utilisation des listes
 -----------------------
 
-Certainement l'un des objets les plus utilisé. Les listes ne sont pas des tableaux, et elles peuvent contenir des items de différents types.
+Certainement l'un des objets les plus utilisés. Les listes ne sont pas des tableaux, et elles peuvent contenir des items de différents types.
 Il existe un type d'objet :py:class:`array.array` qui lui ne contient que des éléments d'un même type. Ce dernier est peu utilisé, pour des tableaux puissants il faut s'appuyer sur la bibliothèque scientifique `numpy <http://www.numpy.org/>`_  utilisée par la biblitothèque à usage scientifique `scipy <http://www.scipy.org/>`_.
 
 .. code:: python
