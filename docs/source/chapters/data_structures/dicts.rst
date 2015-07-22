@@ -5,7 +5,7 @@ Usage des Dictionnaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Les dictionnaires sont souvent considérés comme des "tableaux" associatifs. Ils sont implémenté via des "hash-table".
+Les dictionnaires sont souvent considérés comme des "tableaux" associatifs. Ils sont implémentés via des "hash-table".
 
 Les clefs peuvent être un objet immuable et hashable(qui a un __hash__) soit une string, int (ces deux premiers sont les plus utilisés), un tuple, un décimal (float). Les valeurs peuvent contenir n'importe quel autre objet.
 
